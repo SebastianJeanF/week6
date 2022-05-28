@@ -1,0 +1,69 @@
+* {
+	font-family: Arial;
+}
+.wrapper {
+	display: none;
+	width: 80%;
+	margin: auto;
+	justify-content: space-evenly;
+	background: rgba(0, 255, 4, 0.108);
+}
+.options {
+	display: flex;
+	width: 50%;
+	flex-flow: column;
+	align-items: center;
+}
+.section {
+	width: 50%;
+	background: rgba(0, 0, 255, 0.322);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+	padding: 5px 0px 5px 0px;
+	border: 1px solid rgb(0, 0, 0);
+	height: 10vh;
+	padding: 0px 10px 0px 10px;
+}
+.section div,
+span {
+	padding: 3px;
+}
+span {
+	text-shadow: 1px #000;
+	font-weight: bold;
+	text-align: right;
+}
+.hotdog {
+	width: 100%;
+}
+.info {
+	text-align: center;
+	display: flex;
+	width: 40%;
+	margin: auto;
+	justify-content: space-between;
+}
+.hotdog-text {
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	text-shadow: 1px 1px rgb(0, 0, 0);
+}
+
+.hotdog-section {
+	width: 30%;
+	height: auto;
+	background: blue;
+}
+.upset {
+	color: blue;
+	font-size: 18px;
+	text-shadow: 1px 1px rgb(0, 0, 0);
+}
+.highlight {
+	font-size: 18px;
+	color: yellow;
+	text-shadow: 1px 1px rgb(0, 0, 0);
+}
